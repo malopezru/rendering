@@ -419,13 +419,7 @@
         411,
         412,
         413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419,
-        420
+        414
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -19829,116 +19823,34 @@
       "DebugActionIndex": 391
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"C:/Users/mateo/Rendering/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/mateo/Rendering/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles C:/3D Tetris Build/Build/3D Tetris Build.framework.js",
+      "DisplayName": "Copying 3D Tetris Build.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "C:/3D Tetris Build/Build/3D Tetris Build.framework.js"
       ],
       "ToBuildDependencies": [
         391
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 392
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/3D Tetris Build.framework.js.gz_c10o.info",
-      "DisplayName": "Writing 3D Tetris Build.framework.js.gz_c10o.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 174304,
-      "PayloadLength": 481,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/3D Tetris Build.framework.js.gz_c10o.info"
-      ],
-      "DebugActionIndex": 393
-    },
-    {
-      "Annotation": "GzipMarker C:/3D Tetris Build/Build/3D Tetris Build.framework.js.gz",
-      "DisplayName": "GzipMarker 3D Tetris Build.framework.js",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\3D Tetris Build.framework.js.gz_c10o.info\"",
+      "Annotation": "CopyFiles C:/3D Tetris Build/Build/3D Tetris Build.wasm",
+      "DisplayName": "Copying 3D Tetris Build.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/3D Tetris Build.framework.js.gz_c10o.info",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "C:/3D Tetris Build/Build/3D Tetris Build.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        392,
-        393
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 394
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"C:/Users/mateo/Rendering/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/mateo/Rendering/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/7z.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "C:/3D Tetris Build/Build/3D Tetris Build.wasm"
       ],
       "ToBuildDependencies": [
         389
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 395
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/3D Tetris Build.wasm.gz_53g7.info",
-      "DisplayName": "Writing 3D Tetris Build.wasm.gz_53g7.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 174886,
-      "PayloadLength": 465,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/3D Tetris Build.wasm.gz_53g7.info"
-      ],
-      "DebugActionIndex": 396
-    },
-    {
-      "Annotation": "GzipMarker C:/3D Tetris Build/Build/3D Tetris Build.wasm.gz",
-      "DisplayName": "GzipMarker 3D Tetris Build.wasm",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\3D Tetris Build.wasm.gz_53g7.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/3D Tetris Build.wasm.gz_53g7.info",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/3D Tetris Build/Build/3D Tetris Build.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        395,
-        396
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 397
+      "DebugActionIndex": 393
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -19953,7 +19865,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -19968,20 +19880,20 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 395
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175439,
+      "PayloadOffset": 174283,
       "PayloadLength": 1838,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 396
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -20007,73 +19919,32 @@
       "ToBuildDependencies": [
         2,
         5,
-        400
+        396
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 397
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"C:/Users/mateo/Rendering/Library/Bee/artifacts/WebGL\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/mateo/Rendering/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles C:/3D Tetris Build/Build/3D Tetris Build.data",
+      "DisplayName": "Copying 3D Tetris Build.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "C:/3D Tetris Build/Build/3D Tetris Build.data"
       ],
       "ToBuildDependencies": [
-        401
+        397
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 402
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/3D Tetris Build.data.gz_ny2j.info",
-      "DisplayName": "Writing 3D Tetris Build.data.gz_ny2j.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 177378,
-      "PayloadLength": 442,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/3D Tetris Build.data.gz_ny2j.info"
-      ],
-      "DebugActionIndex": 403
-    },
-    {
-      "Annotation": "GzipMarker C:/3D Tetris Build/Build/3D Tetris Build.data.gz",
-      "DisplayName": "GzipMarker 3D Tetris Build.data",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\3D Tetris Build.data.gz_ny2j.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/3D Tetris Build.data.gz_ny2j.info",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/3D Tetris Build/Build/3D Tetris Build.data.gz"
-      ],
-      "ToBuildDependencies": [
-        402,
-        403
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 404
+      "DebugActionIndex": 398
     },
     {
       "Annotation": "PreprocessJS Library/Bee/artifacts/WebGL3D Tetris Build.loader.js",
       "DisplayName": "PreprocessJS WebGL3D Tetris Build.loader",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/mateo/Rendering/Library/Bee/artifacts/WebGL3D Tetris Build.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Rendering'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='3D Tetris Build.data.gz'\" \"FRAMEWORK_FILENAME='3D Tetris Build.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='3D Tetris Build.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.30f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/mateo/Rendering/Library/Bee/artifacts/WebGL3D Tetris Build.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Rendering'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='3D Tetris Build.data'\" \"FRAMEWORK_FILENAME='3D Tetris Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='3D Tetris Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.30f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -20082,7 +19953,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 405
+      "DebugActionIndex": 399
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/Build/3D Tetris Build.loader.js",
@@ -20095,14 +19966,14 @@
         "C:/3D Tetris Build/Build/3D Tetris Build.loader.js"
       ],
       "ToBuildDependencies": [
-        405
+        399
       ],
-      "DebugActionIndex": 406
+      "DebugActionIndex": 400
     },
     {
       "Annotation": "PreprocessJS C:/3D Tetris Build/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/3D Tetris Build/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Rendering'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='3D Tetris Build.data.gz'\" \"FRAMEWORK_FILENAME='3D Tetris Build.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='3D Tetris Build.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.30f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='3D Tetris Build.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/3D Tetris Build/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Rendering'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='3D Tetris Build.data'\" \"FRAMEWORK_FILENAME='3D Tetris Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='3D Tetris Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.30f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='3D Tetris Build.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -20111,7 +19982,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 407
+      "DebugActionIndex": 401
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/favicon.ico",
@@ -20123,7 +19994,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 408
+      "DebugActionIndex": 402
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/fullscreen-button.png",
@@ -20135,7 +20006,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 409
+      "DebugActionIndex": 403
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/MemoryProfiler.png",
@@ -20147,7 +20018,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 410
+      "DebugActionIndex": 404
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/progress-bar-empty-dark.png",
@@ -20159,7 +20030,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 411
+      "DebugActionIndex": 405
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/progress-bar-empty-light.png",
@@ -20171,7 +20042,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 412
+      "DebugActionIndex": 406
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/progress-bar-full-dark.png",
@@ -20183,7 +20054,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 413
+      "DebugActionIndex": 407
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/progress-bar-full-light.png",
@@ -20195,12 +20066,12 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 414
+      "DebugActionIndex": 408
     },
     {
       "Annotation": "PreprocessJS C:/3D Tetris Build/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/3D Tetris Build/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Rendering'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='3D Tetris Build.data.gz'\" \"FRAMEWORK_FILENAME='3D Tetris Build.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='3D Tetris Build.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.30f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='3D Tetris Build.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/3D Tetris Build/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Rendering'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='3D Tetris Build.data'\" \"FRAMEWORK_FILENAME='3D Tetris Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='3D Tetris Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.30f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='3D Tetris Build.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -20209,7 +20080,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 415
+      "DebugActionIndex": 409
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/unity-logo-dark.png",
@@ -20221,7 +20092,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 416
+      "DebugActionIndex": 410
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/unity-logo-light.png",
@@ -20233,7 +20104,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 417
+      "DebugActionIndex": 411
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/webgl-logo.png",
@@ -20245,7 +20116,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 418
+      "DebugActionIndex": 412
     },
     {
       "Annotation": "CopyFiles C:/3D Tetris Build/TemplateData/webmemd-icon.png",
@@ -20257,7 +20128,7 @@
       "Outputs": [
         "C:/3D Tetris Build/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 419
+      "DebugActionIndex": 413
     },
     {
       "Annotation": "Player",
@@ -20267,11 +20138,17 @@
       "ToBuildDependencies": [
         4,
         385,
+        392,
+        393,
         394,
-        397,
+        395,
         398,
-        399,
+        400,
+        401,
+        402,
+        403,
         404,
+        405,
         406,
         407,
         408,
@@ -20279,16 +20156,10 @@
         410,
         411,
         412,
-        413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419
+        413
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 420
+      "DebugActionIndex": 414
     }
   ],
   "FileSignatures": [
@@ -20656,7 +20527,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 420
+          "Player": 414
         }
 ,  "DefaultNodes": [
     0

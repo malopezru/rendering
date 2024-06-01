@@ -1,0 +1,1471 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16271 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mateo/Rendering
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56400
+Successfully changed project path to: C:/Users/mateo/Rendering
+C:/Users/mateo/Rendering
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9156] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3989527605 [EditorId] 3989527605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8BK7D1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9156] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3989527605 [EditorId] 3989527605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8BK7D1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 30.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.30f1 (70558241b701)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mateo/Rendering/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     2002 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.040062 seconds.
+- Loaded All Assemblies, in  0.786 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1354ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (163ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (285ms)
+				TypeCache.ScanAssembly (265ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.356 seconds
+Refreshing native plugins compatible for Editor in 8.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.368 seconds
+Domain Reload Profiling: 2713ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (856ms)
+		LoadAssemblies (656ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (303ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1047ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (734ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 13.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.8 KB). Loaded Objects now: 3577.
+Memory consumption went from 124.2 MB to 124.1 MB.
+Total: 4.447400 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.370100 ms MarkObjects: 3.533700 ms  DeleteObjects: 0.196500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 923521.280314 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/FK01.mat
+  artifactKey: Guid(2248972af89825947b59ce02e824b172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/FK01.mat using Guid(2248972af89825947b59ce02e824b172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b17a09d0d406bff727cdb809523b70c') in 0.624320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Window Sign.asset
+  artifactKey: Guid(e6b805e372e8d4b46ab6b0695fb07951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Window Sign.asset using Guid(e6b805e372e8d4b46ab6b0695fb07951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '577fafe674b1ec27133f358fa422a4ac') in 0.039499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SkySeries Freebie/SunlessCirruscover.mat
+  artifactKey: Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/SunlessCirruscover.mat using Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99b7f3f58d38a92db04937aa05986da1') in 0.153461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/FastFood_Drinks.asset
+  artifactKey: Guid(6b03200ca0054bc4cb3f8bed682c3384) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/FastFood_Drinks.asset using Guid(6b03200ca0054bc4cb3f8bed682c3384) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49fdf599523aaf467d8bfcbc974e9bac') in 0.045070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Building FastFood Drinks/Materials/Black.mat
+  artifactKey: Guid(81dca6bac8972d84097771af6295bd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/Black.mat using Guid(81dca6bac8972d84097771af6295bd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22588627f292e648d866aaf5798bd1fb') in 0.046414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/sign.prefab
+  artifactKey: Guid(d9b6c63dea8730f43a1891fabe4fa192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/sign.prefab using Guid(d9b6c63dea8730f43a1891fabe4fa192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9d6189676675d8a028c390f065459e0') in 0.156237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Door16_d02.FBX
+  artifactKey: Guid(0611216a8bee93f44b80ba0e4c97eb13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Door16_d02.FBX using Guid(0611216a8bee93f44b80ba0e4c97eb13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ac1180281c4d9d408ef3d26d7e5c363') in 0.175141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/Ground.mat
+  artifactKey: Guid(2b1a18a02f80d844a903238d8d5fb03a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Ground.mat using Guid(2b1a18a02f80d844a903238d8d5fb03a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80aab56533226aca61d915d1456719da') in 0.041593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SkySeries Freebie/HighFantasy.mat
+  artifactKey: Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/HighFantasy.mat using Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea475034d90162d94ef2c268f45465c5') in 0.131633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Building22_e02.FBX
+  artifactKey: Guid(aafec1adce75d1241aa389b089a93cc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Building22_e02.FBX using Guid(aafec1adce75d1241aa389b089a93cc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72b572d1943e3d744382f96212d6d92f') in 0.050859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SkySeries Freebie/FluffballDay.mat
+  artifactKey: Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FluffballDay.mat using Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1649673209129fb881f89f5838a88c33') in 0.072346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkySeries Freebie/AmbienceExposure.mat
+  artifactKey: Guid(72deae4d18418f94688abef8e8483df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/AmbienceExposure.mat using Guid(72deae4d18418f94688abef8e8483df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cf6ad42c0c2a993059840e5fc6941f5') in 0.062068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/QuickOutline/Readme.txt
+  artifactKey: Guid(5933bfd39d7a5b843a0ed821f85bca19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QuickOutline/Readme.txt using Guid(5933bfd39d7a5b843a0ed821f85bca19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23fcc04dadf3aa0b5e64f520a4287bb9') in 0.023211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat
+  artifactKey: Guid(f531e09e2ad2fb440b4eed7605863143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat using Guid(f531e09e2ad2fb440b4eed7605863143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8f6ca039b40889afd2ae043d71dcc16') in 0.077145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.prefab
+  artifactKey: Guid(1d75551dc1cd90d4ead8f8b1ad99b1ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.prefab using Guid(1d75551dc1cd90d4ead8f8b1ad99b1ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cc247f437bba8e682119c631a76a3d8') in 0.062875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower07.mat
+  artifactKey: Guid(028bd54f96227d14ea2d9672bbf25067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower07.mat using Guid(028bd54f96227d14ea2d9672bbf25067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2313b31a3807e74e36b9f30b5c203acc') in 0.029938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Building FastFood Drinks/Materials/sign.mat
+  artifactKey: Guid(d8c47ee3d9d95ff4f81d0e209c171b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/sign.mat using Guid(d8c47ee3d9d95ff4f81d0e209c171b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8523c26682881740e98ca866593e9445') in 0.024944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower01.mat
+  artifactKey: Guid(df775f9cbfa37294682dd3f6e1be264b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower01.mat using Guid(df775f9cbfa37294682dd3f6e1be264b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a60db9dbfe9c31cb259361499c6e730') in 0.026575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Building FastFood Drinks/Materials/SideWalk Sqaure.mat
+  artifactKey: Guid(7f4b2c11e1a48934f85271e23253007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/SideWalk Sqaure.mat using Guid(7f4b2c11e1a48934f85271e23253007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51f49cdfef71c852f1e0e78d387cc6db') in 0.034555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower02.mat
+  artifactKey: Guid(c7671d512cd8bef47a45371a0272c604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower02.mat using Guid(c7671d512cd8bef47a45371a0272c604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0da68e73722fe6047245199d2362e4f') in 0.022464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SelectionManager.cs
+  artifactKey: Guid(653b05c74e9c96e488bf0da9341331e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SelectionManager.cs using Guid(653b05c74e9c96e488bf0da9341331e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4908854dd28e2be2941914991a80992') in 0.019168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SkySeries Freebie/DarkStorm.mat
+  artifactKey: Guid(2039a0ad0a9d05549928b70362f54902) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/DarkStorm.mat using Guid(2039a0ad0a9d05549928b70362f54902) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc0ababa313840aae85ff1baae86ef4d') in 0.077032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Building FastFood Drinks/SkyBox.mat
+  artifactKey: Guid(ad008292c89b04d4b8f9b706ad990349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/SkyBox.mat using Guid(ad008292c89b04d4b8f9b706ad990349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf62cf49613b78e26172463ee7d3a1a0') in 0.064961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/sign 1.asset
+  artifactKey: Guid(45e0575d149a83e46b3bcbb0b165bd53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/sign 1.asset using Guid(45e0575d149a83e46b3bcbb0b165bd53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94680a318b34c2dfbcd7f2473891dc23') in 0.031780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(990d667ec8170f341a7a20079be936a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(990d667ec8170f341a7a20079be936a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '162bd8a287bba8ab47e53e0018464215') in 0.043926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Trash.asset
+  artifactKey: Guid(e731fcbd34ae77d48903d52765c5dfce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Trash.asset using Guid(e731fcbd34ae77d48903d52765c5dfce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6613984507a0939064db1f916d4bfa38') in 0.018140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SkySeries Freebie/PlanetaryEarth.mat
+  artifactKey: Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/PlanetaryEarth.mat using Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c0a41b041c510c6b7e26444a29753ed') in 0.066281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SkySeries Freebie/DayInTheClouds.mat
+  artifactKey: Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/DayInTheClouds.mat using Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ea325965d27cf7ae4a22228cc157b37') in 0.060862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Building FastFood Drinks/Materials/Brick 3.mat
+  artifactKey: Guid(51cb0ba8181d5cc41b0fb4cd407135b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/Brick 3.mat using Guid(51cb0ba8181d5cc41b0fb4cd407135b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f19f4e089557ddb17e2e770c8e0f3c6d') in 0.030478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower03.mat
+  artifactKey: Guid(d3930a9ce264110479ca76df7bb4dd95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Materials/Flower03.mat using Guid(d3930a9ce264110479ca76df7bb4dd95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6b0154c48078be9d217826d056d30eb') in 0.035813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Building FastFood Drinks/FastFood Low Poly Building.pdf
+  artifactKey: Guid(ff1fffa606375c949a0c50c9846c1d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/FastFood Low Poly Building.pdf using Guid(ff1fffa606375c949a0c50c9846c1d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd0b7b0e51c238e90d2c8651431a23ad') in 0.024814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Recycle.asset
+  artifactKey: Guid(983b16b658a6d3046833968135511d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Recycle.asset using Guid(983b16b658a6d3046833968135511d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06c2ac64ca280f8daa49a47cdd11df2f') in 0.019758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Monitor 2.prefab
+  artifactKey: Guid(4dcae225aed9f7f449328446b170e34d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 2.prefab using Guid(4dcae225aed9f7f449328446b170e34d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcabba0a5a89b06752ab57b6f136d9c8') in 0.063585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BuildingManager.cs
+  artifactKey: Guid(07684d4fc17708c45b667b2310f1bd25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BuildingManager.cs using Guid(07684d4fc17708c45b667b2310f1bd25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50ecde737c51e019e09542508fa9d784') in 0.019129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Store.prefab
+  artifactKey: Guid(86e477d6015698b4ca2d27d2f2be9c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Store.prefab using Guid(86e477d6015698b4ca2d27d2f2be9c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd24b8122ee27e38b1a0b1bfe6de4c1ff') in 0.060174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Building16_d01.FBX
+  artifactKey: Guid(e746476fc97f2264ea23e6342026b8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Building16_d01.FBX using Guid(e746476fc97f2264ea23e6342026b8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64da81952d020c2528e8c51b0dffba5a') in 0.039445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/sign.asset
+  artifactKey: Guid(893aedff1b3db9a48ae9c786ebe1c780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/sign.asset using Guid(893aedff1b3db9a48ae9c786ebe1c780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a69e1b5aca20c694c87717700415b018') in 0.020113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Soda Machine.prefab
+  artifactKey: Guid(7e3d66bbdd2f80443b188ce179626eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Soda Machine.prefab using Guid(7e3d66bbdd2f80443b188ce179626eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1cefcd3620ba273a60bfd4c02f8fdfa') in 0.041873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Building FastFood Drinks/Materials/Stone 1.mat
+  artifactKey: Guid(d8ea1feda4d7e054f9b185281a1e15d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/Stone 1.mat using Guid(d8ea1feda4d7e054f9b185281a1e15d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2388016208a5a889f66256604b941363') in 0.032263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkySeries Freebie/CoriolisNight4k.mat
+  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5be579b229b02a62250e1817e1fff92c') in 0.076041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Building FastFood Drinks/Materials/Pixel Stripes.mat
+  artifactKey: Guid(1ff4a61141350764197a3e9d6a32d5f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/Pixel Stripes.mat using Guid(1ff4a61141350764197a3e9d6a32d5f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1885edf58f00fcea09cd364f6002b4bc') in 0.032132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Chair.prefab
+  artifactKey: Guid(15ddf9943ebd5df4dbcfd147b62f2d50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Chair.prefab using Guid(15ddf9943ebd5df4dbcfd147b62f2d50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84e7c674e23462b51f15f297f8fb7f75') in 0.038207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Building FastFood Drinks/Materials/Blue.mat
+  artifactKey: Guid(543b73524511ab3498665164eda2d4b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/Blue.mat using Guid(543b73524511ab3498665164eda2d4b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74241f8b54a0a9a7c672d547c216f09f') in 0.061077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Building FastFood Drinks/Drink_Sign.png
+  artifactKey: Guid(72c1305b9f5654c4e9e0ae28e5aa8abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Drink_Sign.png using Guid(72c1305b9f5654c4e9e0ae28e5aa8abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1ba9233dcee62f25e266e9391eba663') in 0.169128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Door14.FBX
+  artifactKey: Guid(d11040a83f58e9a4ca620798e7b3e7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Door14.FBX using Guid(d11040a83f58e9a4ca620798e7b3e7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ca63e811304d6c3834cadfb6ddd0b7d') in 0.061250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3578.
+Memory consumption went from 71.6 MB to 71.6 MB.
+Total: 6.729600 ms (FindLiveObjects: 0.358800 ms CreateObjectMapping: 0.386100 ms MarkObjects: 5.800400 ms  DeleteObjects: 0.182200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.322163 seconds.
+  path: Assets/Materials/Placed.mat
+  artifactKey: Guid(dc4dacbb5e5282c4ca1117f6e1c8fa29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Placed.mat using Guid(dc4dacbb5e5282c4ca1117f6e1c8fa29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87771110a56bd1a2dcb17eb72c1d3223') in 0.052194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr
+  artifactKey: Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr using Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fb400a122bbcb0b439318a344e76195') in 0.050571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Flowerpot01_d01.FBX
+  artifactKey: Guid(b62f9047e18f6f749800cb32fe180a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Flowerpot01_d01.FBX using Guid(b62f9047e18f6f749800cb32fe180a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aacb0611856c09157d2e1e8087f22b49') in 0.055017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Flower02_b01.FBX
+  artifactKey: Guid(c25fea99ca248ba4899a962103d29517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Flower02_b01.FBX using Guid(c25fea99ca248ba4899a962103d29517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97d432b61cad00501f471d412fc3676a') in 0.053709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af5de637443844be9b47c731b54b035c') in 0.042994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Light02_a04.FBX
+  artifactKey: Guid(613c0f7295d0436458c9764822b8675b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Light02_a04.FBX using Guid(613c0f7295d0436458c9764822b8675b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d6b3e37b9b7d59a6f1c49e32d0ba781') in 0.054932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79be216e6e7b906903e08e1e98ee7dcf') in 0.359329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Village Buildings/Materials/Village_House_V2_Wall.mat
+  artifactKey: Guid(ce6b5f176fd80c64f83b0faabc227900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_House_V2_Wall.mat using Guid(ce6b5f176fd80c64f83b0faabc227900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6792a7a61a8587bfcf3830daf9029f63') in 0.062290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3babd4826e6cb4b5abf46f05e3be5ba9') in 0.090303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Wood07_a02.FBX
+  artifactKey: Guid(75a83a2612cb8d54683aa86e2c2a42c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Wood07_a02.FBX using Guid(75a83a2612cb8d54683aa86e2c2a42c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a63fa0daf6af8b76a8cd314eed71b40') in 0.084248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Textures/Terrain04_D.tga
+  artifactKey: Guid(f8f4c748a3bd61d4a860b2046960d9c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Textures/Terrain04_D.tga using Guid(f8f4c748a3bd61d4a860b2046960d9c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cf5312ef264d6074a1a8223b9af5843') in 0.066032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b146dd09a31c4ec2381479067e650502') in 0.105029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayRight.hdr
+  artifactKey: Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayRight.hdr using Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd2ab6fadef5f971aa38d22fcff9b6c5') in 0.059591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr
+  artifactKey: Guid(a78d8299279fda54098aca1c72ecfae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr using Guid(a78d8299279fda54098aca1c72ecfae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e537b51814b009a0e91be6cf6859da9d') in 0.056954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Window06_b04.FBX
+  artifactKey: Guid(afacbbb9a0092474f94b517598d63b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Window06_b04.FBX using Guid(afacbbb9a0092474f94b517598d63b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '122f02135c4013dc1d57d22f2cf3c0ed') in 0.069439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Village Buildings/Models/Village_House_V3.fbx
+  artifactKey: Guid(01ee38efa0610704c88a7fa95706e730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Models/Village_House_V3.fbx using Guid(01ee38efa0610704c88a7fa95706e730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '032ce4f2172ef9043b7b420e2a35dd37') in 0.089124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Village Buildings/Materials/Village_WindMill_Wall.mat
+  artifactKey: Guid(a64ef02578b3b924194f015fc005c5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_WindMill_Wall.mat using Guid(a64ef02578b3b924194f015fc005c5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ed5c349c8706be7e1f2cfca5d055d00') in 0.083843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Village Buildings/Materials/Village_House_V4_Wall.mat
+  artifactKey: Guid(ae1c64aeaee1a9c4a900ba8d3b9604b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_House_V4_Wall.mat using Guid(ae1c64aeaee1a9c4a900ba8d3b9604b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc58a1b1fb30c703348da48bffd18be7') in 0.049432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Village Buildings/Models/Village_House_V1.fbx
+  artifactKey: Guid(8313b20a384f6c14282bd3a442166cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Models/Village_House_V1.fbx using Guid(8313b20a384f6c14282bd3a442166cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01bc56d849b8a61a430c3414bafc72af') in 0.081066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '249e9074af02e54998235507417c450b') in 0.019851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Village Buildings/Materials/Village_House_V4_Roof.mat
+  artifactKey: Guid(dd1068d285ca41f4ba360a42b1b6c56f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_House_V4_Roof.mat using Guid(dd1068d285ca41f4ba360a42b1b6c56f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ff9e761920df5460e9bec11b0e51c9e') in 0.075337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Tool03_b01.FBX
+  artifactKey: Guid(42a63568b250039459fcf16df3711d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Tool03_b01.FBX using Guid(42a63568b250039459fcf16df3711d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb19567792aa57ba3235cf7b1e80119a') in 0.103678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Trough01_a01.FBX
+  artifactKey: Guid(537d7b7874bfaaa4a8b681e3fc5cc19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Trough01_a01.FBX using Guid(537d7b7874bfaaa4a8b681e3fc5cc19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c83230e0eff065c5547afa65760d583') in 0.057915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9b03dc793b389ed05efcb36c8111786') in 0.041506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V1_Roof_MetallicSmoothness.png
+  artifactKey: Guid(719a85ec0f1eb3f45b85f17ef58b9d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V1_Roof_MetallicSmoothness.png using Guid(719a85ec0f1eb3f45b85f17ef58b9d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cb1106977e20475641d21b4d1ec8b33') in 0.065945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V1_Wall_MetallicSmoothness.png
+  artifactKey: Guid(4fda236218d6e094fb4e96844c5aea8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V1_Wall_MetallicSmoothness.png using Guid(4fda236218d6e094fb4e96844c5aea8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dad2e5a2a6b2887a29f0d8556793636') in 0.049640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V2_Roof_MetallicSmoothness.png
+  artifactKey: Guid(4600cafcbef25c34d8cf1b0d73b103c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V2_Roof_MetallicSmoothness.png using Guid(4600cafcbef25c34d8cf1b0d73b103c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5b30ce5eda78b6d330c0c33512f3f7f') in 0.087099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V2_Wood_Albedo.png
+  artifactKey: Guid(e782555da59a8564facf9c586ea638f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V2_Wood_Albedo.png using Guid(e782555da59a8564facf9c586ea638f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '373ff8304359091057f77d2b895d1029') in 0.071900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Village Buildings/Materials/Village_House_V3_Roof.mat
+  artifactKey: Guid(6ef4d7633a0a32c479cb869442a8c347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_House_V3_Roof.mat using Guid(6ef4d7633a0a32c479cb869442a8c347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9fdbde648d23cd8495aafe9b2cce42ee') in 0.071008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr
+  artifactKey: Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr using Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a55c70c94f96bf89980deac2d4a11fa3') in 0.129050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr
+  artifactKey: Guid(09999639e73bcd64abda22253af612d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr using Guid(09999639e73bcd64abda22253af612d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a08b8d0b335adc2aaa36b0e70a195fe3') in 0.085131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr
+  artifactKey: Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr using Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f480601f28cce823340cde5a23c6863') in 0.115659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V4_Wall_Albedo.png
+  artifactKey: Guid(bd1026c0cfc4f0441840a292073cdbc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V4_Wall_Albedo.png using Guid(bd1026c0cfc4f0441840a292073cdbc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7ed48a8da911f841acdd3cba63004ec') in 0.084817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V4_Roof_Albedo.png
+  artifactKey: Guid(3866c7603b41a484bb2a16754bd08cb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V4_Roof_Albedo.png using Guid(3866c7603b41a484bb2a16754bd08cb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6a00840b85a584b98f4da264809f23f') in 0.046692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Village Buildings/Textures/Village_WindMill_Vr_Normal.png
+  artifactKey: Guid(2738c58b3df2e924a8402e09f21b4b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_WindMill_Vr_Normal.png using Guid(2738c58b3df2e924a8402e09f21b4b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4bc6c66ba7d05a8f7d1065b5b18f14aa') in 0.066654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V4_Roof_MetallicSmoothness.png
+  artifactKey: Guid(88966125641f37e4d83bcf64f6f8868e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V4_Roof_MetallicSmoothness.png using Guid(88966125641f37e4d83bcf64f6f8868e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1d1ad770f3832324e086568060a1e76') in 0.066716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77bf9929063cb6bac810a19adfe2a1c1') in 0.054974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr
+  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd32c0cad51684284af0d21c79d8ce492') in 0.060949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Village Buildings/Materials/Village_House_V1_Roof.mat
+  artifactKey: Guid(3c6471e51db245b4bb3ca60a618f8a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_House_V1_Roof.mat using Guid(3c6471e51db245b4bb3ca60a618f8a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '598d72f42d352d5ba415995705c2e9c1') in 0.059285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr
+  artifactKey: Guid(8967f190ed29c46418093a47d66daee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr using Guid(8967f190ed29c46418093a47d66daee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3067ed21b746f63c4a078796672deccf') in 0.120484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Village Buildings/Textures/Village_WindMill_Wall_Albedo.png
+  artifactKey: Guid(ae2782c335366024aa8f38d7213e5098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_WindMill_Wall_Albedo.png using Guid(ae2782c335366024aa8f38d7213e5098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '683616120a3dcb48efe5a33ad8ed70c2') in 0.081983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab
+  artifactKey: Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab using Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5406dbcf3cf97ea43943e9b2beae7fa2') in 0.038734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Village Buildings/Textures/Village_WindMill_Wood_MetallicSmoothness.png
+  artifactKey: Guid(dab7aad0395ed654a9c2912a7c4f190e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_WindMill_Wood_MetallicSmoothness.png using Guid(dab7aad0395ed654a9c2912a7c4f190e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abf638a9cd3b1527e43f309bf24cb7fe') in 0.054869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Village Buildings/Textures/Village_WindMill_Wall_Normal.png
+  artifactKey: Guid(73d1b22c8cfe9ca42bb586923adcd6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_WindMill_Wall_Normal.png using Guid(73d1b22c8cfe9ca42bb586923adcd6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13df47c481658f3e4746343b67a20514') in 0.078031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Scenes/DemoSettings.lighting
+  artifactKey: Guid(e8f482a7dbbfd0f428937fe8dfde89ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Darth_Artisan/Free_Trees/Scenes/DemoSettings.lighting using Guid(e8f482a7dbbfd0f428937fe8dfde89ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '8735b1c57c2f6698e07d12517ab99ab2') in 0.073631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65bd3e7b356df15019d95fac6296d150') in 0.030026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity
+  artifactKey: Guid(b4025dc8942fc4ed5bc67ff2252091da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity using Guid(b4025dc8942fc4ed5bc67ff2252091da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48ba043c0dc25ad5ce4c2369ebcad428') in 0.039114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr
+  artifactKey: Guid(94b877781ad034640abce933599b6f2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr using Guid(94b877781ad034640abce933599b6f2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e35819a937b2f2fa3d464432095b5756') in 0.055404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Collision/Wood02_a04_col.FBX
+  artifactKey: Guid(176ad187f9a116b4cb3eeb6f306d3952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Collision/Wood02_a04_col.FBX using Guid(176ad187f9a116b4cb3eeb6f306d3952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88d0412ada02581f5f65662541ec761e') in 0.045195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_a02.prefab
+  artifactKey: Guid(8ea9dc37f9ec7584cbbe5fe654ca0878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Vine01_a02.prefab using Guid(8ea9dc37f9ec7584cbbe5fe654ca0878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e14cddffee8858ed32741b1d232b90b') in 0.324736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/QuickOutline/Resources/Materials/OutlineFill.mat
+  artifactKey: Guid(311313efa011949e98b6761d652ad13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QuickOutline/Resources/Materials/OutlineFill.mat using Guid(311313efa011949e98b6761d652ad13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c812d9ce708061fdcccdae76b038d785') in 0.076254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_b.prefab
+  artifactKey: Guid(9c899610785b0c344a60a99f81a7b599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_b.prefab using Guid(9c899610785b0c344a60a99f81a7b599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0839073a52f3fe9c5500a3d3ac300c6e') in 0.069061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 197
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuickOutline/Samples/Materials/Plane.mat
+  artifactKey: Guid(f58cf65ea995c4b45be95713bdea8134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QuickOutline/Samples/Materials/Plane.mat using Guid(f58cf65ea995c4b45be95713bdea8134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1f1d4bbb7d68b4cfbdd435b7f491d3b') in 0.031681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Village Buildings/Models/Materials/Wood.mat
+  artifactKey: Guid(607f1f03e64b4434e8b7a4ad1830bcc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Models/Materials/Wood.mat using Guid(607f1f03e64b4434e8b7a4ad1830bcc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16d4bb120ecd0a27ac0ad142c535b0a1') in 0.033958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71423ab150a210e1f267cd6c654ebe50') in 0.091562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png
+  artifactKey: Guid(255283d354122406ebf8159c5ea35b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png using Guid(255283d354122406ebf8159c5ea35b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29ad87f7144a719232ad18f760fff096') in 0.052042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Vane01_a01.FBX
+  artifactKey: Guid(8b95816d411381c4b98f255228e8f3ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Vane01_a01.FBX using Guid(8b95816d411381c4b98f255228e8f3ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f167ad95a54c5034bca0db6b40c43bcc') in 0.079287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V3_Roof_MetallicSmoothness.png
+  artifactKey: Guid(c4206a550b2723d45b6c7fca3b54ce39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V3_Roof_MetallicSmoothness.png using Guid(c4206a550b2723d45b6c7fca3b54ce39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54887c6a060b655c60f80a70e620c904') in 0.071987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Textures/Terrain07_D.tga
+  artifactKey: Guid(167779c20878bdc43a7399996a940344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Textures/Terrain07_D.tga using Guid(167779c20878bdc43a7399996a940344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37aafb41e683203df6facb6162f25fa5') in 0.059748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx
+  artifactKey: Guid(1e50ef3048667495d90210b70c070c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx using Guid(1e50ef3048667495d90210b70c070c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e713f6005300753f18774ea5c1ea135') in 0.059073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3474ee012c3e220cfd2fdec46378c7dc') in 0.037984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c7e375ab6f84e437568ec39d41bccf8') in 0.083910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Goods/Barrel03_a06.prefab
+  artifactKey: Guid(2528cefc4a6145a4d8e8e4fca5d3df2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Goods/Barrel03_a06.prefab using Guid(2528cefc4a6145a4d8e8e4fca5d3df2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bc15c6925a9735896ebf57025b6512e') in 0.067636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door16_d02.prefab
+  artifactKey: Guid(c94c647d1bcd15f4497307fc7cef4ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door16_d02.prefab using Guid(c94c647d1bcd15f4497307fc7cef4ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de34fce20f657de65d9b79b6ebd44b4f') in 0.052026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Hanger01_a01.prefab
+  artifactKey: Guid(bd99fd9ce0a4d7146a8ea6912f781027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Decoration/Hanger01_a01.prefab using Guid(bd99fd9ce0a4d7146a8ea6912f781027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f903fbea21c5ceb4009038f40e64085') in 0.060577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Chimney/Chimney01.prefab
+  artifactKey: Guid(8ddcb62f6c2df7e478384fd8781918eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Chimney/Chimney01.prefab using Guid(8ddcb62f6c2df7e478384fd8781918eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '976ea3728faf7b14d4d264d85b121bf4') in 0.049414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Farm/Trough01_a01.prefab
+  artifactKey: Guid(8de2689dfe865154899af6901203bff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Farm/Trough01_a01.prefab using Guid(8de2689dfe865154899af6901203bff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe35d5465fb576225dd556dcd993be7c') in 0.044247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door14.prefab
+  artifactKey: Guid(a76d6dc72bc81434e93a247dcc2fe116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Door/Door14.prefab using Guid(a76d6dc72bc81434e93a247dcc2fe116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c739b4da9d18d33a27b62dce070e28d') in 0.052104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V1_Roof_Normal.png
+  artifactKey: Guid(ce6ecc38fa686b843a3ea6dff36824d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V1_Roof_Normal.png using Guid(ce6ecc38fa686b843a3ea6dff36824d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c68bf24ac7687f4e8b3ce45a4b3890ce') in 0.075545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '602e320b3048f9a9b05f7c0fc8ddedbd') in 0.056175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr
+  artifactKey: Guid(438e868ac8cccca4e81873838a67c003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr using Guid(438e868ac8cccca4e81873838a67c003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c187524b682e575403ee5623c08eead') in 0.051163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Lighting/Light02_a04.prefab
+  artifactKey: Guid(6001da597a12e8d45bcda50edd56772e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Lighting/Light02_a04.prefab using Guid(6001da597a12e8d45bcda50edd56772e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9cf867925ed33dc83ff67095da6a10d7') in 0.083126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '164ae5b66e0ba067c9f55191b061bcea') in 0.035737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Village Buildings/Materials/Village_House_V1_Wall.mat
+  artifactKey: Guid(8a521ce924c20024fb8e350a9cc006b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_House_V1_Wall.mat using Guid(8a521ce924c20024fb8e350a9cc006b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbbb8af677cfb0efd9f64de25648e79d') in 0.073238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Building FastFood Drinks/Materials/Red.mat
+  artifactKey: Guid(f5d4aaf8e339e674c93839026746d46d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Materials/Red.mat using Guid(f5d4aaf8e339e674c93839026746d46d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74231a5f8fc6d11f69f35da33f83f16e') in 0.107115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SkySeries Freebie/UnderTheSea4k.mat
+  artifactKey: Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/UnderTheSea4k.mat using Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be1d8a9bcfb75ff864262ab7d6330062') in 0.081635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign/Shop_sign01_b05.prefab
+  artifactKey: Guid(d81e4d74d077ac641a0b0eda01258ea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Sign/Shop_sign01_b05.prefab using Guid(d81e4d74d077ac641a0b0eda01258ea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef45511c8a26ff1324d399df023a9d7c') in 0.052442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window06_b04.prefab
+  artifactKey: Guid(c707e67a0d554814a9e598752d32bf48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window06_b04.prefab using Guid(c707e67a0d554814a9e598752d32bf48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bdd398f3d7229811844acdd4d11c941b') in 0.043613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window01_b01.prefab
+  artifactKey: Guid(ea40f15626c42da4b885dfc336e10d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Window/Window01_b01.prefab using Guid(ea40f15626c42da4b885dfc336e10d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7afd73fdf5a95a478cadf8363ad9161') in 0.043119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Village Buildings/Models/Materials/Wall.mat
+  artifactKey: Guid(201e54a6f59b02f408c0f73020cb507a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Models/Materials/Wall.mat using Guid(201e54a6f59b02f408c0f73020cb507a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18d2580d62593557a3bcbcd7a71c5f50') in 0.063044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Goods/Wood07_a02.prefab
+  artifactKey: Guid(cc9fd9264dea7434a94ab242c2ded7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Goods/Wood07_a02.prefab using Guid(cc9fd9264dea7434a94ab242c2ded7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbad1d0ae20113c647037c83051b73c3') in 0.051865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat
+  artifactKey: Guid(af65c0942482e46aeb256506726ff0f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat using Guid(af65c0942482e46aeb256506726ff0f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '236b2ffdc84d9a0b1027f5050f0747e9') in 0.035749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V2_Roof_Normal.png
+  artifactKey: Guid(20d37a1f52c71c647b29a3050d8eb095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V2_Roof_Normal.png using Guid(20d37a1f52c71c647b29a3050d8eb095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d1dace8c05fa3bcb13dd8a94d0afab8') in 0.057915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ff483bf11debbe987f7151f1cff0ddb') in 0.030825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr
+  artifactKey: Guid(740f96d568f4f3e40b049c40f11603e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr using Guid(740f96d568f4f3e40b049c40f11603e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd050076d7cbd6e3475277e5af73d615a') in 0.065118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Village Buildings/Textures/Village_WindMill_Wood_Normal.png
+  artifactKey: Guid(d25313bf9d6740b41ab4874b6ff96fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_WindMill_Wood_Normal.png using Guid(d25313bf9d6740b41ab4874b6ff96fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3e8bd28278704324f186a1454375360') in 0.092935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '950caa2b6d52b511a06ca0bd28700c2f') in 0.201920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Flowerpot02_a01.FBX
+  artifactKey: Guid(da7bb537515e54b4f9636bd1604df716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Flowerpot02_a01.FBX using Guid(da7bb537515e54b4f9636bd1604df716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2230bac0a4561aa3d41668e9653a946') in 0.096358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_d.prefab
+  artifactKey: Guid(28b228c79a309474b9c2034310e32a42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Building Combination/BuildingAT07_d.prefab using Guid(28b228c79a309474b9c2034310e32a42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ed01f0a14577a01c8da89d503ce33e9') in 0.082381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 216
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01/Building01.prefab
+  artifactKey: Guid(9033a4a0d292c4645a4c6e941da7664a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Main Structures/Building01/Building01.prefab using Guid(9033a4a0d292c4645a4c6e941da7664a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9ba6d15f3d5481b0211845a7e42f261') in 0.059707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Railing07_a01.FBX
+  artifactKey: Guid(92e98eff67cff184b876a21bfcf18845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Railing07_a01.FBX using Guid(92e98eff67cff184b876a21bfcf18845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f25e5763bb24ee8323cff5fae3552ce5') in 0.057317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx
+  artifactKey: Guid(6d58037af810b4021ac921a71033e575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx using Guid(6d58037af810b4021ac921a71033e575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '670436f335b518d180ffd6569c588d76') in 0.066511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d7c97cb1c25e28b6ae7ad139fc550c4') in 0.040945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Wine02_d01.FBX
+  artifactKey: Guid(6a86b90b3dd6640409858823fe1033c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Wine02_d01.FBX using Guid(6a86b90b3dd6640409858823fe1033c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '840d144dc2ba07927ce39021e509ef3d') in 0.073043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Village Buildings/Materials/Village_House_V2_Roof.mat
+  artifactKey: Guid(59514e8c16a61bb49afb88818eb626b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Materials/Village_House_V2_Roof.mat using Guid(59514e8c16a61bb49afb88818eb626b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b16c48709116d49a292cb439333b1fe') in 0.061957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr
+  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eadebaf183c2571020897254e96374bb') in 0.095391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr
+  artifactKey: Guid(354036e57ae357148aed267204ce73a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr using Guid(354036e57ae357148aed267204ce73a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7d52d2b339c4057e7e286af52c67882') in 0.085456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Textures/FK01_D.tga
+  artifactKey: Guid(8cd81fc9e22ada7489668156f208499b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Textures/FK01_D.tga using Guid(8cd81fc9e22ada7489668156f208499b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c2ed3631eb945773b29b760b37d549a') in 0.067839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Flowerpot/Flowerpot01_d07.prefab
+  artifactKey: Guid(3ded3765d3df53e43a67aa508bd74f2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Flowerpot/Flowerpot01_d07.prefab using Guid(3ded3765d3df53e43a67aa508bd74f2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4ff82cb4a47f4e87390e238cd17f4d3') in 0.031722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Window01_b01.FBX
+  artifactKey: Guid(9ffe8f09e79e723448ef2fe03e27676d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Meshes/Window01_b01.FBX using Guid(9ffe8f09e79e723448ef2fe03e27676d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61191251e03a0a40de007dda20222cc2') in 0.052059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V3_Roof_Normal.png
+  artifactKey: Guid(25761ee49e029f14986666e3d9c311ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V3_Roof_Normal.png using Guid(25761ee49e029f14986666e3d9c311ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f04923c6db55dd2905fc6831b8064e63') in 0.045505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Flowerpot/Flowerpot03_g06.prefab
+  artifactKey: Guid(df278cf9f3a973b4783ea065e9e25020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Vegetation/Flowerpot/Flowerpot03_g06.prefab using Guid(df278cf9f3a973b4783ea065e9e25020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7830357471a8d89e329cdfe26c312a7') in 0.027914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Food/Wine03_a01.prefab
+  artifactKey: Guid(4e7dc3de309b0734c8cc6366a6356f58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy_Kingdom_Pack_Lite/Perfabs/Props/Food/Wine03_a01.prefab using Guid(4e7dc3de309b0734c8cc6366a6356f58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecd49366422caabdabdd9b9fff2b57ac') in 0.036466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8350b1448a739931478ed61e1398ed2f') in 0.032167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr
+  artifactKey: Guid(a3de28b69b48944438c87668bd722ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr using Guid(a3de28b69b48944438c87668bd722ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '610b89ced8f264c6d75f2dd8ee5e5d0f') in 0.102746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Village Buildings/Models/Village_House_V2.fbx
+  artifactKey: Guid(ffc289447873f5d4ebdf092541b6faed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Models/Village_House_V2.fbx using Guid(ffc289447873f5d4ebdf092541b6faed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4420289e264fceb8dac890aad134ef87') in 0.065800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Window Sign.prefab
+  artifactKey: Guid(9fb6d077367f9c244b28c14111fe0bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Prefabs/Window Sign.prefab using Guid(9fb6d077367f9c244b28c14111fe0bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8bf0c880d19f1a94c9fe208fc16648d') in 0.112923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d93c3a955a04befd395665f96e9824b') in 0.052583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr
+  artifactKey: Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr using Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c9d77a31d8614c44ecdfb3c8a44ff74') in 0.090055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc13185a33043ebc32191240224c41bf') in 0.047078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Building FastFood Drinks/Textures/stone_2_diffuseOriginal.png
+  artifactKey: Guid(0fe371ce43adaf342b07d01fc1812278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Building FastFood Drinks/Textures/stone_2_diffuseOriginal.png using Guid(0fe371ce43adaf342b07d01fc1812278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8125d41a626ff6b35a5f2f47d995e797') in 0.065530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/SkySeries Freebie/UnearthlyRed.mat
+  artifactKey: Guid(5d133deeaa66ed445853e946ff25e073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkySeries Freebie/UnearthlyRed.mat using Guid(5d133deeaa66ed445853e946ff25e073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '675136dea13997074c7458aebdde0a91') in 0.070251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Village Buildings/Textures/Village_House_V2_Wood_MetallicSmoothness.png
+  artifactKey: Guid(0aec8f0b0e739144a8a8d93efd8378ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Village Buildings/Textures/Village_House_V2_Wood_MetallicSmoothness.png using Guid(0aec8f0b0e739144a8a8d93efd8378ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00682aafaed842293fa05b5e88712c19') in 0.063032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
